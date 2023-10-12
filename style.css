@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* The * selector selects all the elements */
+
+* {
+    margin: 0; /*The margin properties are used to create space around elements, outside of any defined borders*/
+    padding: 0; /* The padding properties are used to generate space around an element's content, inside of any defined borders */
+    box-sizing: border-box;  /*The box-sizing property allows us to include the padding and border in an element's total width and height.*/
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex; /*The flex property sets the flexible length on flexible items*/
+    justify-content: center; /* The flex items within that container will be aligned at the center along the main axis.  */
+    align-items: center; /* The items inside the flexible container will be centered */
+    min-height: 100vh;
+    background-color: antiquewhite;
+}
+
+.wrapper {
+    width: 420px;
+    background: rgba(255, 255, 255, .2.5);
+    border: 2px solid rgba(255, 255, 255, .4);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff; /*This one of the color codes used in CSS called hex*/
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.wrapper h1 {
+    font-size: 26px;
+    text-align: center;
+    color: dimgrey;
+    padding-bottom: 25px;
+    text-decoration: underline;
+}
